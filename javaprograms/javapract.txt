@@ -1,0 +1,303 @@
+class javapract {
+    public static void main(String[] args) {
+        int num2=25;
+        System.out.println("hello this is kiran"+" "+10*20);
+        System.out.println("num");
+        System.out.println(num2+30.555);
+        System.out.println("HeLLo jJiJJI        j");
+        System.out.println('2');
+        System.out.println("1+2");
+        System.out.println(20+30+num2);
+    }
+}
+
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+        String ename="Suraj",edept="IT",role="Java Developer";
+        byte eid=1;
+        int CTC=1200000,salary=100000,present=22,deducted=5000,leaves=2,day=(salary-deducted)/present,received=day*present;
+        System.out.println("CTC for "+ename + " is " + CTC +" \nSalary per month is "+ salary+" \nDay Wise Salary is " + day  +" \nNo.of Leaves taken is "+leaves +" \nNo.of Days present is "+present  +" \nSalary Deducted is "+deducted +" \nSalary Received is "+received );
+    }
+}
+
+
+Student Application marks total problem
+
+class Main {
+    public static void main(String[] args) {
+        int roll=1007,mobile=98564,s1=93,s2=97,s3=80,s4=85,s5=87,s6=96,max_marks=600,total_marks=(s1+s2+s3+s4+s5+s6);
+        String name="Arjun",email="arjun@gmail.com";
+        char section='A';
+        double percentage=((double)total_marks/max_marks)*100;
+        System.out.println("Student roll is "+roll+"\nName is "+name+"\nSection is "+section+"\nEmail of student is "+email+"\nMobile number is "+mobile+"\nS1 Subject mark is "+s1+"\nS2 Subject mark is "+s2+"\nS3 Subject mark is "+s3+"\nS4 Subject mark is "+s4+"\nS5 Subject mark is "+s5+"\nS6 Subject mark is "+s6+"\nMaximum Marks are "+max_marks+"\nTotal marks obtained by "+ name +" is "+total_marks+"\nPercentage to all the subjects by "+name+" is "+percentage);
+    }
+}
+
+
+
+Implicit Type casting All the possible methods are here
+
+
+class Main {
+public static void main(String[] args) {
+//bytes
+byte b=12;//1 byte
+short s=b; //2bytes
+int i=b; //4bytes
+long x=b; //8bytes
+float y=b; //4bytes
+double d=b; //8bytes
+System.out.println("Byte=>short=>int=>long=>float=>double");
+        
+        
+//short
+short s1=23;//short to byte not possible
+int i1=s1;
+long x1=s1;
+float y1=s1;
+double d1=s1;
+System.out.println("int=>long=>float=>double");
+System.out.println("short to byte is not possible");
+    
+    
+//int
+int i2=232;//int to short not possible
+long x2=i2;
+float y2=i2;
+double d2=i2;
+System.out.println("int=>long=>float=>double");
+System.out.println("int to short & byte are not possible");
+
+//long 
+long x3=29290l;
+float y3=x3;
+double d3=x3;
+System.out.println("long=>float=>double");
+System.out.println("Long to int,short and byte are not possible");
+
+
+//float
+float y4=29292f;
+double d4=y4;
+System.out.println("float=>double");
+System.out.println("Float to int,short,byte,long are not possible");
+    }
+}
+
+
+write a program to find vowel or consonant
+
+
+class Main {
+    public static void main(String[] args) {
+        int num=23,a=30,b=20,i=4;
+        char input='a';
+        if(num%2==0 && num%4==0){
+            System.out.println("Number num is divisible by 2 & 4");
+        }
+        else {
+            System.out.println("Not divisible by 2 & 4");
+        }
+        if(i==1)
+        {
+            System.out.println(a+b);
+        }
+        else if(i==2)
+        {
+            System.out.println(a-b);
+        }
+        else if(i==3)
+        {
+            System.out.println(a/b);
+        }
+        else
+        {
+            System.out.println(a*b);
+        }
+        
+        if( input=='a' || input=='e' || input=='i' || input=='o' || input=='u')
+        {
+        System.out.println("Its a vowel");
+        }
+        else {
+            System.out.println("Its a consonant");
+        }
+        
+    }
+    
+    
+}
+
+
+Write a program for finding number of days in a month there is an input of m onth and getting number of days in it 
+class Main {
+    public static void main(String[] args) {
+        int month=4;
+        if (month==1){
+        System.out.println("Number of days is 31");
+    }
+        else if (month==2) {
+            System.out.println("Number of days is 28");
+        }
+        else if (month==3) {
+            System.out.println("Number of days is 31");
+        }
+        else if (month==4) {
+            System.out.println("Number of days is 30");
+        }
+    else if (month==5) {
+            System.out.println("Number of days is 31");
+        }
+        else if (month==6) {
+            System.out.println("Number of days is 30");
+        }
+        else if (month==7) {
+            System.out.println("Number of days is 31");
+        }
+        else if (month==8) {
+            System.out.println("Number of days is 31");
+        }
+        else if (month==9) {
+            System.out.println("Number of days is 30");
+        }
+        else if (month==10) {
+            System.out.println("Number of days is 31");
+        }
+        else if (month==11) {
+            System.out.println("Number of days is 30");
+        }
+        else if (month==12) {
+            System.out.println("Number of days is 31");
+        }
+        
+        }
+    }
+
+
+Write a program in java for finding the input is a capital letter or small letter or a number (even or odd)
+
+class Main {
+    public static void main(String[] args) {
+        char word='T';
+        
+        if(word >='A' && word <='Z')
+        {
+            System.out.println("It's a CAPITAL Letter");
+        }
+        else if(word>='a'&& word<='z'){
+            System.out.println("It's a small Letter");
+        }
+        else if(word>='0' && word<='9')
+        {
+            System.out.println("Its a Number"+"\nChecking It's an Even or Odd Number...");
+            if (word%2==0){
+                System.out.println("It's an Even Number as "+word);//for checking its even
+            }
+                  else
+                {
+                    System.out.println("It's an Odd Number as "+word);//for checking its odd
+                    
+                }
+                
+            }
+        else {
+            System.out.println("It's a Symbol");
+        }
+    }
+}
+
+
+
+        
+
+Write a Java program that takes a number as input and checks if the number is positive, negative, or zero using an if-else statement.
+
+
+class Main {
+    public static void main(String[] args) {
+        int num=0;
+        if(num>0) {
+            System.out.println("positive");
+        } 
+        else if(num<0){
+            System.out.println("negative");
+        }
+        else {
+            System.out.println("zero");
+        }
+    }
+}
+
+
+Write a program to check if a given year is a leap year or not using if-else.
+
+
+
+
+Write a program to find the largest of three numbers using if-else statements.
+
+
+
+
+Write a Java program that prints the numbers from 1 to 10 using a while loop.
+
+
+
+
+Write a program that prints all even numbers between 1 and 100 using a while loop.
+
+
+
+Write a program that calculates the factorial of a given number using a while loop.
+
+
+Write a Java program that takes a day of the week as input (1-7) and prints the corresponding weekday name (e.g., 1 = Monday, 2 = Tuesday, etc.) using a switch statement.
+
+
+Write a program that takes a character as input and checks if it is a vowel or consonant using a switch statement.
+
+
+
+Write a program that prints the corresponding month name (January, February, etc.) based on the number (1-12) entered by the user using a switch statement.
+
+
+Write a Java program that prints the numbers from 1 to 20 using a for loop.
+
+
+
+Write a program that prints the multiplication table of a given number (1-10) using a for loop.
+
+
+Write a program to find the sum of all even numbers between 1 and 100 using a for loop.
+
+
+
+Write a Java program that prints numbers from 1 to 20 but skips numbers that are divisible by 3 using a for loop and the continue statement.
+
+
+
+Write a program to find the first number that is divisible by both 4 and 5 between 1 and 100 using a for loop and the break statement.
+    
+
+
+Write a program that prints all prime numbers from 1 to 100, skipping non-prime numbers using break and continue.
+
+    
+
+
+Write a program that asks the user for their age and prints a message based on the age category (Child, Teenager, Adult) using if-else statements.
+
+
+Write a Java program to calculate the sum of the digits of a number entered by the user using a while loop.
+
+
+
+Create a program to determine whether a number is prime or not using a for loop and if-else conditions
+
+
+

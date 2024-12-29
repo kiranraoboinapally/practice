@@ -1,0 +1,12 @@
+Converting seconds into Hours and Minutes
+
+class Main {
+    public static void main(String[] args) {
+        int sec=8000,min=60,hour=60;
+        double convert1 = min*hour;
+        System.out.println("The Time in hours is");
+        System.out.println(sec/convert1);
+        System.out.println("The Time in minutes is");
+        System.out.println(sec/min);
+    }
+}

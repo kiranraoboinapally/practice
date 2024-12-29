@@ -1,0 +1,17 @@
+class file14
+{
+public static void main(String args[])
+{
+
+int start=10,end=1;
+while(start>=end)
+{
+
+System.out.println(start);
+start--;
+}
+
+
+}
+
+}

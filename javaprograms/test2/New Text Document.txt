@@ -1,0 +1,19 @@
+class file15
+{
+public static void main(String args[])
+	{
+	int sum=0,a=1234;
+	while(a!=0)
+		{
+	int rem=a%10,temp=a;
+	int num=rem,fact=1,start=1;
+		for(;num>=fact;)
+			{
+			fact=fact*start;
+			start++;
+			}
+		System.out.println(num+" factorial is "+fact);
+
+		}
+	}
+}

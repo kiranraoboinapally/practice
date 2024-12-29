@@ -1,0 +1,10 @@
+class tweleve {
+
+public static void main(String args[])
+{
+int age=28;
+String location="city";
+System.out.println(location);
+
+}
+}

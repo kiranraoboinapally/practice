@@ -1,0 +1,20 @@
+class error1 {
+
+public static void main(String args[]){
+
+
+char input='A';
+int value=(int)input;
+
+
+
+
+System.out.println(value);
+
+
+
+
+
+
+}
+}
