@@ -1,5 +1,0 @@
-if(condition){  
-//code if condition is true  
-}else{  
-//code if condition is false  
-}  
