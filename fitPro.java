@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FitnessTracker {
+class fitPro {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
